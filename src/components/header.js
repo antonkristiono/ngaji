@@ -36,9 +36,16 @@ const Header = ({ siteTitle }) => (
           <div className="flex items-center">
             <div className="flex-shrink-0">
               <Link to="/">
-                <h2 className="text-white">{siteTitle}</h2>
+                <h2 className="pt-5 text-white">{siteTitle}</h2>
               </Link>
             </div>
+          </div>
+          <div className="flex flex-row-reverse text-white">
+            <Link to="/SejarahAlQuraan">
+              <div>Al Quraan</div>
+            </Link>
+            {/* <div>2</div> */}
+            {/* <div>3</div> */}
           </div>
         </div>
       </div>
